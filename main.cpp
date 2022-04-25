@@ -2,6 +2,8 @@
 #include <conio.h>
 using namespace std;
 
+int variable;
+
 void DecimalBinario(int numero){
     if(numero>1)
         DecimalBinario(numero/2);
